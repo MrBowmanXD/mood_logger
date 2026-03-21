@@ -1,0 +1,34 @@
+.homepage-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logotype {
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-links {
+    width: 280px;
+    display: flex;
+}
+
+.link {
+    margin: 10px;
+    padding: 10px;
+}
+
+.link a {
+    display: block;
+    width: 100%;
+}
+
+.buttons {
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
