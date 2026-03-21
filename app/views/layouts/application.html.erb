@@ -24,6 +24,24 @@
   </head>
 
   <body>
+    <nav class="homepage-navigation">
+      <div class="logotype">Logo</div>
+      <div class="main-links">
+          <div class="moods link">
+              <%= link_to "Moods", moods_path %>
+          </div>
+          <div class="about link">
+              <%= link_to "About", controller: "home", action: "about" %>
+          </div>
+          <div class="contact link">
+              <a href="#">Contact</a>
+          </div>
+      </div>
+      <div class="buttons">
+          <button>Sign up</button>
+          <button>Log in</button>
+      </div>
+  </nav>
     <%= yield %>
   </body>
 </html>
