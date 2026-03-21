@@ -1,4 +1,4 @@
-<div id="<%= dom_id mood %>">
+<div id="<%= dom_id mood %>" class="singular-mood">
   <div>
     <strong>Emotion:</strong>
     <%= mood.emotion %>
@@ -12,6 +12,10 @@
   <div>
     <strong>Notes:</strong>
     <%= mood.notes %>
+  </div>
+
+  <div class="center">
+    <%= link_to "Show this mood", mood, class: "block" %>
   </div>
 
 </div>
