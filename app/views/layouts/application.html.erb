@@ -27,11 +27,14 @@
     <nav class="homepage-navigation">
       <div class="logotype">Logo</div>
       <div class="main-links">
+          <div class="homepage link">
+            <%= link_to "Home", root_path %>
+          </div>
           <div class="moods link">
-              <%= link_to "Moods", moods_path %>
+            <%= link_to "Moods", moods_path %>
           </div>
           <div class="about link">
-              <%= link_to "About", controller: "home", action: "about" %>
+            <%= link_to "About", controller: "home", action: "about" %>
           </div>
           <div class="contact link">
               <a href="#">Contact</a>
