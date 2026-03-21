@@ -1,16 +1,18 @@
-<p style="color: green"><%= notice %></p>
+<div class="center">
+  <p style="color: green"><%= notice %></p>
 
-<% content_for :title, "Moods" %>
+  <% content_for :title, "Moods" %>
 
-<h1>Moods</h1>
+  <h1>Moods</h1>
 
-<div id="moods">
-  <% @moods.each do |mood| %>
-    <%= render mood %>
-    <p>
-      <%= link_to "Show this mood", mood %>
-    </p>
-  <% end %>
+  <div id="moods">
+    <% @moods.each do |mood| %>
+      <%= render mood %>
+      <p>
+        <%= link_to "Show this mood", mood %>
+      </p>
+    <% end %>
+  </div>
+
+  <%= link_to "New mood", new_mood_path %>
 </div>
-
-<%= link_to "New mood", new_mood_path %>
