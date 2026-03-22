@@ -25,7 +25,7 @@
 
   <body>
     <nav class="homepage-navigation">
-      <div class="logotype">Logo</div>
+      <%= link_to image_tag("logo mood_logger.png", :alt => "Logotype for the mood_logger website", class: "logotype"), root_path, class: "logo" %>
       <div class="main-links">
           <div class="homepage link">
             <%= link_to "Home", root_path %>
