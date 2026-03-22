@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :objectives
   resources :moods
   get "home/index"
   get "home/about"
