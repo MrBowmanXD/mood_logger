@@ -62,3 +62,8 @@
 .buttons .log-in {
     background-color: blue;
 }
+
+.button {
+    text-decoration: none;
+    color: white;
+}

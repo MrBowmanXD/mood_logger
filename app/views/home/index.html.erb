@@ -1,4 +1,13 @@
 <main>
+<div class="alert_container">
+  <% if alert = flash[:alert] %>
+    <p class="alert_message" id="alert"><%= alert %></p>
+  <% end %>
+
+  <% if notice = flash[:notice] %>
+    <p class="notice_message" id="notice"><%= notice %></p>
+  <% end %>
+</div>
     <div class="center">
         <h1>Homepage</h1>
         <p>Basic rules or suggestions:</p>
