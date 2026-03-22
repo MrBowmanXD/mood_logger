@@ -10,12 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_03_21_085604) do
+ActiveRecord::Schema[8.1].define(version: 2026_03_22_024647) do
   create_table "moods", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.string "emotion"
     t.string "intensity"
     t.text "notes"
+    t.string "tag"
     t.datetime "updated_at", null: false
   end
 end

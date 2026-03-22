@@ -65,6 +65,6 @@ class MoodsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def mood_params
-      params.expect(mood: [ :emotion, :intensity, :notes ])
+      params.expect(mood: [ :tag, :emotion, :intensity, :notes ])
     end
 end
